@@ -1,0 +1,54 @@
+# =========================================================
+# Nilachala Policy Assistant — Python dependencies
+# Python 3.12 · CPU-only · air-gapped target deployment
+#
+# SYSTEM PREREQUISITES (apt, not pip):
+#   sudo apt update
+#   sudo apt install -y tesseract-ocr poppler-utils
+#
+#   tesseract-ocr   -> OCR engine. pytesseract is only a wrapper;
+#                      without this binary every OCR call fails.
+#   poppler-utils   -> pdf2image needs pdftoppm to rasterise PDFs.
+#
+# Install:  pip install -r requirements.txt
+# =========================================================
+
+# ---------- Document extraction ----------
+pypdf==5.1.0
+pdfplumber==0.11.4
+python-docx==1.1.2
+pytesseract==0.3.13
+pdf2image==1.17.0
+Pillow==11.0.0
+
+# ---------- Orchestration / chunking ----------
+langchain==0.3.13
+langchain-core==0.3.28
+langchain-community==0.3.13
+langchain-text-splitters==0.3.4
+langchain-ollama==0.2.2
+langgraph==0.2.60
+
+# ---------- Embeddings & retrieval ----------
+sentence-transformers==3.3.1
+torch==2.5.1
+chromadb==0.5.23
+rank-bm25==0.2.2
+
+# ---------- API & UI ----------
+fastapi==0.115.6
+uvicorn==0.34.0
+streamlit==1.41.1
+requests==2.32.3
+
+# ---------- Config & utilities ----------
+pydantic==2.10.4
+pydantic-settings==2.7.0
+python-dotenv==1.0.1
+PyYAML==6.0.2
+pandas==2.2.3
+
+# ---------- Development ----------
+pytest==8.3.4
+jupyter==1.1.1
+ipykernel==6.29.5
