@@ -1,0 +1,13 @@
+doc_id,filename,title,department,format,pages,is_scanned,has_tables,version,is_current,notes
+D01,casual_earned_leave_policy_v3.pdf,Casual and Earned Leave Policy,ALL,pdf,8,FALSE,TRUE,3.0,TRUE,Current leave policy. Entitlement table: 12 casual / 18 earned. Most-queried document.
+D02,leave_policy_2019.pdf,Leave Policy,ALL,pdf,6,FALSE,TRUE,1.0,FALSE,Superseded 2019 version. States 10 casual / 15 earned. Deliberate conflict with D01 to test version handling.
+D03,employee_handbook.pdf,Employee Handbook,ALL,pdf,94,FALSE,TRUE,2.1,TRUE,Long document. Stresses chunking and page-level citation accuracy.
+D04,factory_floor_safety_manual.pdf,Factory Floor Safety Manual,ALL,pdf,22,TRUE,FALSE,1.0,TRUE,SCANNED. Safety-critical. Answers must carry printed-manual verification notice.
+D05,fire_evacuation_procedure.pdf,Fire and Evacuation Procedure,ALL,pdf,9,TRUE,FALSE,1.0,TRUE,SCANNED 2016 original. Safety-critical.
+D06,machine_operating_guidelines.pdf,Machine Operating Guidelines,Production,pdf,14,TRUE,FALSE,1.0,TRUE,SCANNED. Restricted to Production department.
+D07,laptop_it_asset_policy.pdf,Laptop and IT Asset Policy,ALL,pdf,7,FALSE,FALSE,2.0,TRUE,Frequently queried. Replacement cycle and damage liability.
+D08,it_support_escalation_matrix.docx,IT Support and Escalation Matrix,IT,docx,5,FALSE,TRUE,1.2,TRUE,DOCX format. Restricted to IT. Contains SLA table.
+D09,travel_expense_reimbursement.pdf,Travel and Expense Reimbursement Policy,ALL,pdf,11,FALSE,TRUE,2.0,TRUE,Contains per-diem and grade-wise travel entitlement table.
+D10,salary_grade_structure.pdf,Salary Grade and Allowance Structure,Finance,pdf,6,FALSE,TRUE,1.0,TRUE,RESTRICTED to Finance. Primary access-control test document.
+D11,provident_fund_gratuity_guidelines.pdf,Provident Fund and Gratuity Guidelines,ALL,pdf,10,FALSE,TRUE,1.1,TRUE,Explains PF rules generally. Must NOT be used to answer individual balance queries.
+D12,code_of_conduct.docx,Code of Conduct and Disciplinary Procedure,ALL,docx,13,FALSE,FALSE,1.0,TRUE,DOCX format. Narrative prose. Tests non-tabular extraction.
